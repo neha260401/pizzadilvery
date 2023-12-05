@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+       
+        
+         .btn a{
+            text-decoration: none;
+            color:white;
+         }
+        </style>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    </head>
+    <body bgcolor="">
+        <div class="container" align="center">
+        <div class="wrapper" align="center">
+            
+            <div class="form-box login">
+                <button class="btn3">TM</button></a><br>Tiffin Management System</li>
+               <h1>Admin Login</h1>
+               <i class="fa-solid fa-user"></i>
+               &emsp;<input class="text" type="text" id="user"placeholder="Username" size="30"><br><br>
+
+               <i class="fa-solid fa-lock"></i>
+               &emsp;<input class="text" type="password"  id="pass" placeholder="Password" size="30"><br><br> 
+
+               <button class="btn" type="submit" value="login" onclick="auth()"><a href="">Login</button></a><br><br>
+               <a  class="link" href="signup.html"></a>
+               <br><br>
+               <h6 align="left"> <a href="home.html">Back to Home>></a></h6>
+            </div>
+            
+        </div>
+     
+    </div> 
+    <script>
+        function auth(){
+            
+            var email = document.getElementById("user").value;
+            var password = document.getElementById("pass").value;
+
+            if(email=="admin@gmail.com" && password=="admin123"){
+                window.location.assign("index.php");
+                alert("Login Successful")
+            }
+            else{
+                alert("Invalid Id Password ! ")
+                return;
+            }
+        }
+    </script>
+    </body>
+</html>

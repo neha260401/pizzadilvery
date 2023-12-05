@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <style>
+        .container9 {
+            text-decoration: none;
+            background-color: white;
+            width: 1350px;
+            height: 930px;
+
+        }
+
+        .cont2 a {
+            color: white;
+        }
+
+        .cont2 {
+            text-decoration: none;
+            background-color: white;
+            width: 600px;
+            height: 900px;
+            border: 3px solid orange;
+            border-radius: 10px;
+        }
+
+        .table2 {
+            font-family: calibri;
+            font-size: 20px;
+        }
+
+        .cont {
+            background-color: white;
+            text-align: left;
+            font-size: 15px;
+            margin: 10px auto;
+            width: 500px;
+            height: 500px;
+            border-radius: 10px;
+        }
+
+        .add {
+            font-family: 'calibri light';
+            font-weight: normal;
+
+            margin-left: 10px;
+        }
+
+        .contact {
+            font-family: 'comic sans ms';
+            font-weight: normal;
+        }
+
+        .container8 {
+            background-color: white;
+            width: 1350px;
+            height: 600px;
+        }
+
+        .container7 {
+            background-color: rgb(232, 239, 245);
+            text-align: center;
+            width: 1350px;
+            height: 400px;
+        }
+
+        .container6 {
+            width: 1350px;
+            height: 300px;
+        }
+
+        .abc {
+            font-family: 'cambria';
+            font-size: 25px;
+            font-weight: normal;
+        }
+
+        .container4 {
+            background-color: white;
+            width: 1350px;
+            height: 500px;
+        }
+
+        .def {
+            font-family: 'comic sans ms';
+            font-size: 30px;
+        }
+
+        .container3 {
+            text-align: center;
+            background-color: rgb(232, 239, 245);
+            width: 1350px;
+            height: 300px;
+        }
+
+        .container2 {
+            background-color: white;
+            width: 1350px;
+            height: 500px;
+        }
+
+        .container {
+            background-image: url(img/pizzhome3new.jpg) ;
+                background-color: rgb(232, 239, 245);
+                background-repeat: no-repeat;
+                position: top;
+                width: 1350px;
+                height: 525px;
+        }
+
+        .navbar2 {
+            font-family: 'calibri light';
+            color: white;
+            font-size: 18px;
+            top: 10;
+            width: 70%;
+            height: 5%;
+        }
+
+        .navbar2 li {
+            font-weight: bold;
+            cursor: pointer;
+            float: left;
+            list-style: none;
+            margin: 5px 10px;
+            text-decoration: none;
+        }
+
+        .navbar2 a:hover {
+            color: orange;
+        }
+
+        .navbar {
+            font-family: 'calibri light';
+            font-size: 18px;
+            background-color: white;
+            top: 10;
+            width: 70%;
+            height: 8%;
+
+
+        }
+
+
+
+
+        .navbar li {
+            cursor: pointer;
+            float: left;
+            list-style: none;
+            margin: 13px 20px;
+
+
+        }
+
+        .menu a:hover {
+            color: orange;
+        }
+
+        .navbar a:hover {
+            color: orange;
+        }
+
+        h1 {
+            font-family: 'comic sans ms';
+        }
+
+        .btn3.hover {
+            color: orange;
+        }
+
+        .btn2 {
+            font-family: 'Trebuchet ms';
+            cursor: pointer;
+            background-color: orange;
+            color: white;
+            border-radius: 15px;
+            width: 100px;
+            border: none;
+            padding: 15px;
+            font-weight: bold;
+
+        }
+
+        .btn1 {
+            font-family: 'Trebuchet ms';
+            cursor: pointer;
+            background-color: orange;
+            color: white;
+            border-radius: 15px;
+            border: none;
+            padding: 15px;
+            font-weight: bold;
+        }
+
+        .btn4 :hover {
+            color: orange;
+        }
+
+        .btn1:hover {
+
+            background-color: yellow;
+
+        }
+
+        .num {
+            font-family: 'calibri light';
+            text-decoration: none;
+        }
+
+        .card3 {
+            text-align: center;
+
+        }
+        .card3 img{
+            height: 300px;
+            width: 500px;
+            border-radius: 20px;
+        }
+
+        .card4 img {
+            border-radius: 20px;
+            height: 200px;
+            width: 350px;
+            border: 5px;
+        }
+
+        .card4 {
+            margin: 40px;
+            float: left;
+            width: 350px;
+            font-weight: bold;
+        }
+
+        .card2 {
+            margin-left: 200px;
+            float: left;
+            width: 300px;
+            font-weight: bold;
+        }
+
+        .card2 img {
+            height: 200px;
+            width: 300px;
+            border: 5px;
+        }
+
+        .card {
+            margin: 12px;
+            border: 2px;
+
+            float: left;
+            width: 300px;
+            font-weight: bold;
+        }
+
+        .card img {
+            height: 200px;
+            width: 200px;
+            margin-left: 40px;
+            border-radius: 10px;
+        }
+
+        .desc2 {
+            font-family: 'comic sans ms';
+            font-weight: normal;
+        }
+
+        .desc {
+            font-family: 'comic sans ms';
+            font-weight: normal;
+        }
+
+        .font {
+            font-family: 'calibri light';
+            font-weight: normal;
+        }
+
+        .para {
+            font-family: 'calibri light';
+            font-size: 20px;
+        }
+
+        .fa-quote-left {
+            color: orange;
+        }
+
+        .fa-location-dot {
+            color: orange;
+        }
+
+        .fa-envelope {
+            color: orange;
+        }
+
+        .fa-phone {
+            color: orange;
+        }
+
+        .fa-clock {
+            color: orange;
+        }
+
+        .text2 {
+
+            border: none;
+            height: 50px;
+            font-size: 14pt;
+        }
+
+        .auto {
+            float: left;
+            font-family: 'calibri light';
+        }
+
+        .text2 {
+            border-radius: 10px;
+            height: 50px;
+            font-size: 15pt;
+        }
+
+        .btn3 {
+            font-family: 'Times new roman';
+            height: 60px;
+            width: 70px;
+            font-size: 20px;
+            cursor: pointer;
+            background-color: orange;
+            color: white;
+            border-radius: 5px;
+            border: none;
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        .btn {
+            text-decoration: none;
+            color: white;
+        }
+
+        .btn4 {
+            text-decoration: none;
+        }
+
+        ul.no-bullets {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        a:link {
+            color: black;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: black;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        .menu {
+            background-color: white;
+            height: 180px;
+            width: 400px;
+            font-family: 'calibri light';
+            margin: 40px;
+            float: left;
+            font-weight: bold;
+
+        }
+
+        .contact2 h5 {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .contact2 {
+            background-color: white;
+            font-family: 'calibri light';
+            height: 180px;
+            margin: 40px;
+            border: 10px;
+            float: left;
+            width: 400px;
+            font-weight: bold;
+        }
+
+        .connect {
+            background-color: white;
+            font-family: 'calibri light';
+            cursor: pointer;
+            height: 180px;
+            width: 300px;
+            margin: 40px;
+            border: 2px;
+            float: left;
+        }
+
+        .connect h5 {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .container10 {
+            height: 300px;
+            width: 1350px;
+        }
+
+        textarea {
+            width: 350px;
+            border: none;
+            font-size: 15pt;
+
+        }
+
+        .btn1 a {
+            color: white;
+        }
+
+        .table a:hover {
+            color: orange;
+        }
+
+        .slide-number {
+            font-family: 'calibri light';
+            font-weight: normal;
+        }
+
+        .cont2 .pay1 {
+            font-family: 'calibri light';
+            color: blue;
+            cursor: pointer;
+        }
+
+
+        /* Styling the area of the slides */
+        #slideshow {
+            overflow: hidden;
+            height: 350px;
+            width: 728px;
+            margin: 0 auto;
+        }
+
+        a.click {
+            color: blue;
+        }
+
+        /* Style each of the sides
+with a fixed width and height */
+        .slide {
+            float: left;
+            height: 200px;
+            width: 728px;
+        }
+
+        /* Add animation to the slides */
+        .slide-wrapper {
+
+            /* Calculate the total width on the
+  basis of number of slides */
+            width: calc(728px * 4);
+
+            /* Specify the animation with the
+  duration and speed */
+            animation: slide 10s ease infinite;
+        }
+
+        /* Set the background color
+of each of the slides */
+
+
+        /* Define the animation
+for the slideshow */
+        @keyframes slide {
+
+            /* Calculate the margin-left for
+  each of the slides */
+            20% {
+                margin-left: 0px;
+            }
+
+            40% {
+                margin-left: calc(-728px * 1);
+            }
+
+            60% {
+                margin-left: calc(-728px * 2);
+            }
+
+            80% {
+                margin-left: calc(-728px * 3);
+            }
+        }
+    </style>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <script>
+        function validateForm() {
+            var username = document.getElementById('username').value;
+            var mobileNo = document.getElementById('mobileNo').value;
+            var email = document.getElementById('email').value;
+
+            var usernamePattern = /^[a-zA-Z0-9_-]{3,16}$/;
+            var mobileNoPattern = /^\d{10}$/;
+            var emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+
+            if (!usernamePattern.test(username)) {
+                alert('Username must be 3-16 characters and can contain letters, numbers, underscores, and hyphens.');
+                return false;
+            }
+
+            if (!mobileNoPattern.test(mobileNo)) {
+                alert('Mobile number must be 10 digits.');
+                return false;
+            }
+
+            if (!emailPattern.test(email)) {
+                alert('Invalid email address.');
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+</head>
+
+<body>
+
+    <div class="container" id="section1">
+
+        <h4 class="num"><br><i class="fa-solid fa-phone"></i>+7219897350 &emsp; <i
+                class="fa-sharp fa-regular fa-envelope"></i> nehaspatil1010@gmail.com&emsp;&emsp;<i
+                class="fa-solid fa-location-dot"></i> B.A.M.U.Aurangabad</h4>
+        <nav class="navbar2">
+            <ul>
+                <li><a href="login.html" class="btn4">Admin Login</a></li>
+                <li> | </li>
+                <li><a href="userlogin.html" class="btn4">User Login</a></li>
+
+
+
+            </ul>
+
+        </nav>
+
+        <header>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#section1" class="btn">HOME</a></li>
+                    <li><a href="#section2" class="btn">TYPES OF CUISINE</a></li>
+                    <li><a href="#section3" class="btn">SERVICES</a></li>
+                    <li><a href="#section4" class="btn">CONTACT US</a></li>
+                    <li><a href="#section1" class="btn">&emsp;&emsp; &emsp;</a><br>
+                        <h1>Pizza Delivery</h1>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <br><br><br><br><br><br>
+        <h1> &emsp; Exquisite Pizza</h1>
+        <h1> &emsp; Delicious Baked Pizza</h1>
+        &emsp; &emsp; &emsp;<button class="btn1"><a href="#section6">Order Pizza</a></button>&emsp;
+    </div>
+
+    <div class="container2" id="section2">
+        <h1 align="center">Types of Pizzas</h1>
+        <div>
+            <div class="card">
+                <img src="img/margrita.webp">
+                <div class="desc" align="center">Margharita Pizza</div>
+
+            </div>
+        </div>
+        <div>
+            <div class="card">
+                <img src="img/cheesePizza.webp">
+                <div class="desc" align="center">Cheese Pizza</div>
+                </div>
+            </div>
+            <div>
+                <div class="card">
+                    <img src="img/vegPizza.webp">
+                    <div class="desc" align="center">Mix veg Pizza</div>
+
+                </div>
+            </div>
+            <div>
+                <div class="card">
+                    <img src="img/PaneerPizza.jpg">
+                    <div class="desc" align="center">Paneer Pizza</div>
+                </div>
+            </div>
+
+        </div>
+        <div class="container3">
+                <br>
+
+            <div>
+                <h2 class="def">OFFERS</h2>
+                <h5 class="abc">BUY 3 PIZZA GET 1 FREE<br>
+                    
+                </h5>
+
+            </div>
+
+        </div>
+
+        <div class="container4" id="section3">
+            <h1 align="center">Services</h1>
+
+            <div class="card2">
+                <img src="img/PizzaTake.jpeg">
+                <div class="desc2" align="center">Take away</div>
+                <!-- <div class="font" align="center">Allow us to take care of your daily lunch, regardless if you’re at work
+                    or at home.</div> -->
+                <br><br><br>
+
+            </div>
+            <div class="card2">
+                <img src="img/PizzaDeliver.jpg">
+                <div class="desc" align="center">Home Delivery</div>
+                <!-- <div class="font" align="center">What would you choose? Stale cooked hotel food or goodness and
+                    wholeness of nutritious food?</div> -->
+                <br><br>
+            </div>
+
+
+           
+        </div>
+        <h1 align="center">About Us</h1>
+        <div class="container5">
+            <div class="card3">
+                <img src="img/homePizza.png">
+                <p class="para">We, Tiffin management system, situated at Aurangabad, Maharashtra, offer pre-planned
+                    meal packages that a customer can customize to his liking. It is<br>
+                    our endeavor to make sure that you enjoy homely cooked food at very affordable rates and hassle-free
+                    packages. We offer a wide array of meal options in<br>
+                    vegetarian and non-vegetarian sections. Each option is not just finger-licking good but highly
+                    nutritious and prepared under very hygienic conditions.</p>
+
+            </div>
+
+        </div>
+        <h1 align="center">Gallary</h1>
+        <div class="container6">
+            <div class="card4">
+                <img src="img/gallery1.webp">
+            </div>
+            <div class="card4">
+                <img src="img/gallery2.jpg">
+            </div>
+            <div class="card4">
+                <img src="img/gallery3.jpg">
+            </div>
+
+        </div>
+
+        <div class="container7" id="section5">
+            <div id="slideshow">
+                <br>
+                <i class="fa-solid fa-quote-left fa-2xl"></i>
+                <h1>TESTIMONIALS</h1>
+                <div class="slide-wrapper">
+
+                    <!-- Define each of the slides
+                 and write the content -->
+
+                    <div class="slide">
+                        <h1 class="slide-number">
+                            The quality of pizza that they offer is extremely tasty.</h1>
+                        - Samiksha Bari
+
+                    </div>
+                    <div class="slide">
+                        <h1 class="slide-number">
+                            The Pizza service is most affordable.
+                        </h1>
+                        - Ajay Kotiye
+                    </div>
+                    <div class="slide">
+                        <h1 class="slide-number">
+                            I am highly impressed with the range of cuisines that they avail.
+                        </h1>
+                        - Bhagyashree Aswar
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="container8" id="section4" align="center">
+            <h1 align="center">Contact Us</h1>
+            <div>
+                <div class="cont">
+
+                    <h2 class="contact"><i class="fa-solid fa-location-dot fa-1x"></i> Our Office Address</h2>
+                    <h4 class="add">Dr.Babasaheb Ambedkar Marathwada University Aurangabad, Aurangabad,<br> Maharashtra
+                        431001</h4>
+                    <br>
+
+                    <h2 class="contact"><i class="fa-solid fa-envelope fa-1x"></i> General Enquiries</h2>
+                    <h4 class="add">nehaspatil1010@gmail.com</h4><br>
+
+                    <h2 class="contact"><i class="fa-sharp fa-solid fa-phone fa-1x"></i> Call Us</h2>
+                    <h4 class="add">+91-7219897350</h4><br>
+
+                    <h2 class="contact"><i class="fa-regular fa-clock fa-1x"></i> Our Timing</h2>
+                    <h4 class="add">Mon - Sun : 9:00 AM To 9:00 PM</h4>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="container9" id="section6" align="center">
+            <div class="cont2">
+
+                <form onsubmit="return validateForm()" action="details_entry.php" method="post">
+                    <table cellpadding="10">
+                        <tr>
+                            <td>
+                                <h1 align="center">Order Pizza</h1>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <input class="text2" type="text" id="username" name="name" placeholder="Username"
+                                    pattern="[a-zA-Z0-9_-]{3,16}" size="30" required>
+                            </td>
+                        </tr>
+                        <br>
+                        <tr>
+                            <td>
+                                <input class="text2" type="text" id="mobileNo" name="mobileNo" placeholder="Mobile No."
+                                    pattern="\d{10}" size="30" required>
+                            </td>
+                        </tr>
+                        <br>
+
+                        <tr>
+                            <td>
+                                <input class="text2" type="email" id="email" name="Email" placeholder="Email"
+                                    pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" size="30" required>
+                            </td>
+                        </tr>
+                        <br>
+                        <tr>
+                            <td>
+                                <textarea class="textarea" placeholder="Address" name="address" rows="5" column="100"
+                                    required></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <textarea class="textarea" placeholder="Message" name="message" rows="4" column="100"
+                                    required></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>select time:<input type="time" name="user_time" required>&emsp;&emsp;Date
+                                <input type="date" name="date" min="2023-01-01" max="2030-12-30" required><br><br>
+                            </td>
+                        </tr>
+
+                    </table>
+                    <br>
+                    <input class="btn2" type="submit" name="save" value="Submit" href="bookedtiffin.html">
+                    <h4>For monthly Subscription &emsp;<a class="click" href="usersignup.html">CLICK HERE</a></h4>
+
+                </form>
+
+            </div>
+
+        </div>
+        <hr>
+        <div class="container10">
+            <div class="menu">
+                <ul class="no-bullets">
+                    <li><a href="#section1" class="btn">HOME</a></li><br>
+                    <li><a href="#section2" class="btn">TYPES OF CUISINE</a></li><br>
+                    <li><a href="#section3" class="btn">SERVICES</a></li><br>
+                    <li><a href="#section5" class="btn">TESTIMONIALS</a></li><br>
+                </ul>
+            </div>
+            <div class="contact2">
+                <h5>CONTACT</h5>
+                <p>Adalat Road Aurangabad, Aurangabad, 431001, Maharashtra<br>
+                    +91-7219897350<br>
+                    nehaspatil1010@gmail.com</p>
+            </div>
+            <div class="connect">
+                <h5>CONNECT</h5>
+                <table class="table" cellpadding="20">
+                    <tr>
+                        <td><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook fa-2xl"></i></a></td>
+
+                        <td><a href="https://www.linkedin.com"><i class="fa-brands fa-linkedin fa-2xl"></i></a></td>
+
+                        <td><a href="https://www.instagram.com"><i class="fa-brands fa-instagram fa-2xl"></i></a></td>
+
+                        <td><a href="https://www.twitter.com"><i class="fa-brands fa-twitter fa-2xl"></i></a></td>
+                    </tr>
+                </table>
+
+            </div>
+
+        </div>
+</body>
+
+</html>
